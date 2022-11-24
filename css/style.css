@@ -1,10 +1,6 @@
 body {
-  
-  
-  background-image: url(/images/background1.png);
-  background-size:cover;
-  background-repeat: no-repeat;
- 
+   
+  background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
   font-family: "Open Sans", sans-serif;
   color: #333333;
 
