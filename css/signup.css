@@ -2,19 +2,22 @@ body {
   background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
 
     font-family: sans-serif;
-    font-size: 10px;
+    font-size:15px;
+    font-weight: bolder;
   }
   
   form {
     background: #fff;
     padding: 4em 4em 2em;
-    max-width: 400px;
+    max-width: 500px;
     margin-left:auto;
-    margin-right: 20px;
-    margin-top: 50px;
+    margin-right: 90px;
+    margin-top: 40px;
    
     box-shadow: 0 0 1em #222;
     border-radius: 2px;
+    
+        
   }
   form h2 {
     margin: 0 0 50px 0;
@@ -25,56 +28,48 @@ body {
     border-bottom: solid 1px #e5e5e5;
   }
   form p {
-    margin: 0 0 3em 0;
+    margin: 0 0 2em 0;
     position: relative;
   }
-  form input {
-    display: block;
-    box-sizing: border-box;
-    width: 80%;
-    outline: none;
-    margin: 0;
+ 
+  .right-container .set {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: px;
+    margin-right: 50px;
+   position: relative;
   }
-  form input[type="text"],
-  form input[type="password"] {
-    background: #fff;
-    border: 1px solid #dbdbdb;
-    font-size: 1.6em;
-    padding: .8em .5em;
-    border-radius: 2px;
+  .right-container input {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    height: 38px;
+    min-width: 250px;
+    line-height: 38px;
+    
+    padding-left: 5px;
+    background-color:#A6A6A6;
+    
+    
+  }::placeholder {
+    color: rgb(255, 243, 243);
+    opacity: 1; /* Firefox */
   }
-  form input[type="text"]:focus,
-  form input[type="password"]:focus {
-    background: #fff;
-  }
-  form span {
-    display: block;
-    background: #F9A5A5;
-    padding: 2px 5px;
-    color: #666;
-  }
-  form input[type="submit"] {
-    background: rgba(148, 186, 101, 0.7);
-    box-shadow: 0 3px 0 0 rgba(123, 163, 73, 0.7);
-    border-radius: 2px;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-    display: block;
-    font-size: 2em;
-    line-height: 1.6em;
-    margin: 2em 0 0;
-    outline: none;
-    padding: .8em 0;
-    text-shadow: 0 1px #68B25B;
-  }
-  form input[type="submit"]:hover {
-    background: #94af65;
-    text-shadow: 0 1px 3px rgba(70, 93, 41, 0.7);
+
+  .right-container input, .right-container label {
+    color: rgba(0, 0, 0, 0.8);
   }
   
-  form label.floatLabel {
-    top: -11px;
-    background-color: rgba(255, 255, 255, 0.8);
-    font-size: 14px;
+  .right-container label, .right-container input, .right-container {
+    width:10 px;
   }
+ 
+
+  .name label .breed label .birthday label
+  {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  
